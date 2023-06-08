@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Drag and Drop</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <h1 style="font-family: 'Montserrat', sans-serif; font-size: 48px; color: #2b536e; text-align: center;">Graydot
+        Technologies Private Limited
+    </h1>
+    <h4 style="font-family: 'Montserrat', sans-serif; color: #2b536e; text-align: center;">Drag and Drop Functionality
+    </h4>
+
+
+    <div class="container" id="container1">
+        <h2>Container 1</h2>
+        <div class="item" draggable="true">
+            <img src="images/georgi-kalaydzhiev-neF7gKk9708-unsplash.jpg" alt="Image 1">
+            <span class="item-text"></span>
+        </div>
+        <div class="item" draggable="true">
+            <img src="images/neom-i60yUhfWeYI-unsplash.jpg" alt="Image 2">
+            <span class="item-text"></span>
+        </div>
+        <div class="item" draggable="true">
+            <i class="fas fa-cube"></i>
+            <span class="item-text">Item 1</span>
+        </div>
+        <div class="item" draggable="true">
+            <i class="fas fa-star"></i>
+            <span class="item-text">Item 2</span>
+        </div>
+        <div class="item" draggable="true">
+            <i class="fas fa-heart"></i>
+            <span class="item-text">Item 3</span>
+        </div>
+        <div class="item" draggable="true">
+            <i class="fas fa-smile"></i>
+            <span class="item-text">Item 4</span>
+        </div>
+        <div class="item" draggable="true">
+            <i class="fas fa-lightbulb"></i>
+            <span class="item-text">Item 5</span>
+        </div>
+
+        <div class="item" draggable="true">
+
+            <span class="item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi adipisci nam ex quia
+                eius mollitia, natus itaque facere commodi numquam, soluta at assumenda corporis maiores nemo, quam
+                voluptatum voluptas dicta.</span>
+        </div>
+        <div class="item" draggable="true">
+
+            <span class="item-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non asperiores, unde eius
+                repellendus itaque reiciendis architecto porro eligendi eum incidunt cumque explicabo consequatur
+                pariatur sequi dolor doloribus debitis dolores vitae perspiciatis! Sunt, explicabo minima! Quibusdam
+                vitae blanditiis, asperiores fugit soluta, quod ducimus doloremque, perferendis eveniet quisquam libero
+                nam. Consectetur optio dicta, natus blanditiis sint doloremque obcaecati?</span>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <h2>Container 2</h2>
+    </div>
+
+    <button id="resetBtn">Reset</button>
+
+    <div id="successMessage" class="success-message">
+        <span class="checkmark">&#x2714;</span>
+        <span class="text">Item dropped successfully!</span>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
